@@ -4,11 +4,11 @@ trigger:
       - main
 
 pool:
-  name: 'linux-agentpool'  
+  name: 'ubuntu-lates'  
 
 variables:
   terraformVersion: '1.5.5'  
-  serviceConnection: 'automation-connection20'  
+  serviceConnection: 'demo-service-con'  
 
 steps:
   - task: TerraformInstaller@0
